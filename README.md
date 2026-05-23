@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:24283b,100:414868&height=200&section=header&text=Yansha&fontSize=55&fontColor=c0caf5&animation=fadeIn&fontAlignY=38&desc=Digital%20Artifacts%20%26%20Logic%20Systems.&descSize=18&descColor=7aa2f7&descAlignY=60" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:2d3561&height=180&section=header&text=Yansha&fontSize=55&fontColor=c0caf5&animation=twinkling&fontAlignY=38" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=500&color=7AA2F7&center=true&vCenter=true&width=520&lines=Digital+Artifacts+%26+Logic+Systems.;3D+%C2%B7+Video+%C2%B7+Design+Systems+%C2%B7+Code.;Software+Engineer)](https://git.io/typing-svg)
 
@@ -53,12 +53,18 @@ I build digital artifacts and logic systems - from 3D and video to design system
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sha-wrks&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=sha-wrks&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sha-wrks&theme=tokyonight" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sha-wrks&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=sha-wrks&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sha-wrks&theme=tokyonight" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sha-wrks&theme=tokyonight" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sha-wrks&theme=tokyonight" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sha-wrks&theme=tokyonight&utcOffset=8" height="165"/>
 </p>
 
 ---
@@ -81,6 +87,6 @@ I build digital artifacts and logic systems - from 3D and video to design system
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sha-wrks&style=flat-square&color=7aa2f7&label=Profile+Views)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:414868,50:24283b,100:1a1b27&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d3561,100:1a1b27&height=100&section=footer" width="100%"/>
 
 </div>
