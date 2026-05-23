@@ -1,0 +1,75 @@
+name: Community Standards Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    name: Verify community standard files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check README
+        run: |
+          if [ ! -f "README.md" ]; then
+            echo "FAIL: README.md is missing"
+            exit 1
+          fi
+          echo "PASS: README.md"
+
+      - name: Check Code of Conduct
+        run: |
+          if [ ! -f "CODE_OF_CONDUCT.md" ]; then
+            echo "FAIL: CODE_OF_CONDUCT.md is missing"
+            exit 1
+          fi
+          echo "PASS: CODE_OF_CONDUCT.md"
+
+      - name: Check Contributing guide
+        run: |
+          if [ ! -f "CONTRIBUTING.md" ]; then
+            echo "FAIL: CONTRIBUTING.md is missing"
+            exit 1
+          fi
+          echo "PASS: CONTRIBUTING.md"
+
+      - name: Check License
+        run: |
+          if [ ! -f "LICENSE" ] && [ ! -f "LICENSE.md" ] && [ ! -f "LICENSE.txt" ]; then
+            echo "FAIL: LICENSE file is missing"
+            exit 1
+          fi
+          echo "PASS: LICENSE"
+
+      - name: Check Security policy
+        run: |
+          if [ ! -f "SECURITY.md" ] && [ ! -f ".github/SECURITY.md" ]; then
+            echo "FAIL: SECURITY.md is missing"
+            exit 1
+          fi
+          echo "PASS: SECURITY.md"
+
+      - name: Check Issue templates
+        run: |
+          if [ ! -d ".github/ISSUE_TEMPLATE" ] || [ -z "$(ls -A .github/ISSUE_TEMPLATE)" ]; then
+            echo "FAIL: .github/ISSUE_TEMPLATE is missing or empty"
+            exit 1
+          fi
+          echo "PASS: Issue templates"
+
+      - name: Check Pull request template
+        run: |
+          if [ ! -f ".github/PULL_REQUEST_TEMPLATE.md" ] && [ ! -f ".github/pull_request_template.md" ]; then
+            echo "FAIL: PULL_REQUEST_TEMPLATE.md is missing"
+            exit 1
+          fi
+          echo "PASS: PULL_REQUEST_TEMPLATE.md"
+
+      - name: All community standards met
+        run: echo "All community standard files are present."
