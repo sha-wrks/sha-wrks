@@ -5,7 +5,8 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=500&color=7AA2F7&center=true&vCenter=true&width=520&lines=Digital+Artifacts+%26+Logic+Systems.;3D+%C2%B7+Video+%C2%B7+Design+Systems+%C2%B7+Code.;Software+Engineer)](https://git.io/typing-svg)
 
 [![Twitter](https://img.shields.io/badge/@sha__wrks-1D9BF0?style=flat-square&logo=x&logoColor=white)](https://twitter.com/sha_wrks)
-[![Website](https://img.shields.io/badge/sha.wrks-1a1b27?style=flat-square&logo=googlechrome&logoColor=7aa2f7)](https://sha.wrks)
+[![Instagram](https://img.shields.io/badge/@sha.wrks-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/sha.wrks)
+[![Website](https://img.shields.io/badge/yansha.dev-1a1b27?style=flat-square&logo=googlechrome&logoColor=7aa2f7)](https://yansha.dev)
 [![GitHub followers](https://img.shields.io/github/followers/sha-wrks?style=flat-square&logo=github&label=Followers&color=1a1b27&labelColor=24283b&logoColor=c0caf5)](https://github.com/sha-wrks?tab=followers)
 
 </div>
